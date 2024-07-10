@@ -13,6 +13,7 @@
     display: flex;
     justify-content: absolute;
     align-items: absolute;
+    margin-bottom: 74px;
 }
 
 #hero .hero-content{
@@ -61,8 +62,114 @@
     text-align: center;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    border: none;
+    margin-bottom: 35px;
 }
 
 .btn-container{
+    text-align: center;
+}
 
+#why-web-dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+    background: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+}
+
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wwd-head {
+    color: rgb(13, 19, 33);
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 10px;
+}
+
+.wwd-paragraph {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.reasons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.reason {
+    width: 757px;
+    height: 269px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    padding: 38px;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.reason1 {
+    width: 757px;
+    height: 269px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    padding: 38px;
+    border: 0px;
+    border-radius: 8px;
+}
+
+
+.reason img {
+    max-width: 300px;
+    margin-left: 217px;
+}
+
+.reason-content h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.reason-content p {
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px;
+}
+
+.reason-content button {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;    
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
